@@ -14,14 +14,14 @@ const USER_CONFIG = {
   APP_SECRET: 'a97440004e33eb5eb2a9c1cc884e36b1',
 
   PROVINCE: '广东',
-  CITY: '东莞',
+  CITY: '高州',
 
   USERS: [
     {
       // 想要发送的人的名字
       name: '老婆',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oEl6O57tr0qx4Ngj1pB0iqei5DhA',
+      id: 'oEl6O5zAGJrQrCxov4o1KDNJpL0M',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'giAiUPShnJaMu8h1Q-s2XBvMw09H2UI0YJEm5XV0zF0',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -36,7 +36,7 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-09-17' },
-        { keyword: 'miss_day', date: '2022-09-18' },
+        { keyword: 'miss_day', date: '2022-09-19' },
         // 结婚纪念日
 //         { keyword: 'marry_day', date: '2022-09-09' },
       ],
