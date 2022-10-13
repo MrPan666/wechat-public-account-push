@@ -8,10 +8,10 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx6853666c0ee50914',
+  APP_ID: 'wxaf193513be4102dc',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '633c0c8761abb4cf07ff40b1e9db45fe',
+  APP_SECRET: 'a97440004e33eb5eb2a9c1cc884e36b1',
 
   PROVINCE: '广东',
   CITY: '东莞',
@@ -19,33 +19,23 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '典妹',
+      name: '老婆',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o7joX6pQGZxilp4kuPTqFWqMzZiI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '20jd2MkseivqTWROuijM3TvXm2WuWNdaVtdPixESasI',
+      useTemplateId: 'xWd59zKEeGiRPAvvjueqb8tkrx0BNDxBKB5CP03yIU4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '09-29',
+      horoscopeDate: '01-08',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1994', date: '09-29',
+          type: '*生日', name: '宝贝', year: '1995', date: '11-18',
         },
-//         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-//         {
-//           type: '生日', name: '李四', year: '1996', date: '09-31',
-//         },
-//         {
-//           type: '节日', name: '相识纪念日', year: '2022', date: '05-21',
-//         },
-//         {
-//           type: '节日', name: '确认关系的恋爱纪念日', year: '2022', date: '07-23',
-//         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-07-23' },
+        { keyword: 'love_day', date: '2022-09-17' },
         // 结婚纪念日
 //         { keyword: 'marry_day', date: '2022-09-09' },
       ],
@@ -54,13 +44,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'Yvi0GD-P6PKjnmkXqZW5AoOTV9jOuTjaG_zkVC_iCfM',
+  CALLBACK_TEMPLATE_ID: 'Yvi0GD-A-uM95tFY6lU2dxH4QhLUQIQYv-XYDPttrcpPf2qWpo',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o7joX6qY-5-Xr3ygXoPVLpLxmeGM',
+      id: 'o7joX6pQGZxilp4kuPTqFWqMzZiI',
     }
   ],
 
